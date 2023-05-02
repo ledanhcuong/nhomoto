@@ -1,0 +1,29 @@
+
+.containertest{
+    max-width: 1400px;
+    margin: auto;
+    width: 100%;
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px; 
+    align-items: center;
+    flex-direction: column;
+    background: url(../img/porsche.test.jpg);
+    background-size: cover;
+}
+.containertest h2{
+    font-size: 36px;
+    font-weight: 500;
+    color:  #d90429 ;;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+p {
+    font-weight: 300;
+    color: #ffff;
+}
+.form-label{
+    font-weight: 300;
+    color:  #d90429 ; 
+}
+
