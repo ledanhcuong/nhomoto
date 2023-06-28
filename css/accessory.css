@@ -244,12 +244,14 @@ button {
 }
 
 .social i {
-    color: #d90429;
+    color: #000000;
 }
 
 .footer-box h3 {
     text-align: left;
+    font-weight: bold;
 }
+
 
 @media only screen and (max-width:1024px) {
     .option img {

@@ -153,11 +153,23 @@ button {
 }
 
 .social i {
-    color: #d90429;
+    color: #000000;
 }
 
 .footer-box h3 {
     text-align: left;
+    color: black;
+}
+
+
+.footer-box p,
+.footer-box a{
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+}
+.footer-box a:hover{
+    color: red;
+
 }
 
 @media only screen and (max-width:1024px) {

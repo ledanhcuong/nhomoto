@@ -321,10 +321,11 @@ table{
     display: flex;
     align-items: center;
     margin-top: 30px;
+    color: #f11a1a;
 }
 .social a{
     font-size: 24px;
-    color: var(--bg-color);
+    color: red;
     margin-right: 1rem;
     
 }
@@ -335,15 +336,16 @@ table{
     font-size:1.1rem;
     font-weight: 600px;
     margin-bottom: 1rem;
+    color: #020202;
    
 }
 .footer-box p,
 .footer-box a{
-    color: rgb(186, 218, 233);
+    color: rgb(0, 0, 0);
     margin-bottom: 10px;
 }
 .footer-box a:hover{
-    color: var(--bg-color);
+    color: red;
 
 }
 
