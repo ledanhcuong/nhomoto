@@ -18,6 +18,10 @@
 }
 .content p{
     text-align: justify;
+    line-height: 26px;
+}
+.content h2{
+    text-align: center;
 }
 
 
