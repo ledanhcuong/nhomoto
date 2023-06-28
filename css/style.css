@@ -389,13 +389,13 @@ img{
     margin-right: 1rem;
 }
 .social a:hover{
-    color: red;
+    color: var(--main-color);
 }
 .footer-box h3{
     font-size:1.1rem;
-    font-weight: 600px;
+    font-weight: 400px;
     margin-bottom: 1rem;
-    color: #020202;
+    color: #ffffff;
 }
 .footer-box p,
 .footer-box a{
@@ -403,7 +403,7 @@ img{
     margin-bottom: 10px;
 }
 .footer-box a:hover{
-    color: red;
+    color: var(--bg-color);
 
 }
 .footer_bottom{

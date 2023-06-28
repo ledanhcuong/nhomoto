@@ -152,24 +152,60 @@ button {
     width: 45%;
 }
 
-.social i {
-    color: #000000;
+
+.footer{
+    background: url(img/132.jpg);
+    color: aliceblue;
+    border-top: 1.5px solid var(--main-color);
+   
+
+ }
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 0.7rem;
+
 }
+.footer-container .logo{
+    color: var(--bg-color);
+    margin-bottom: 1rem;
 
-.footer-box h3 {
-    text-align: left;
-    color: black;
 }
-
-
+.footer-container .footer-box{
+    display: flex;
+    flex-direction: column;
+}
+.social{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.social a{
+    font-size: 24px;
+    color: var(--bg-color);
+    margin-right: 1rem;
+}
+.social a:hover{
+    color: red;
+}
+.footer-box h3{
+    font-size:1.1rem;
+    font-weight: 600px;
+    margin-bottom: 1rem;
+    color: #ffffff;
+}
 .footer-box p,
 .footer-box a{
     color: rgb(0, 0, 0);
     margin-bottom: 10px;
 }
 .footer-box a:hover{
-    color: red;
+    color: rgb(0, 17, 255);
 
+}
+.footer_bottom{
+    border-top: 0.1px solid var(--main-color);
+    padding-top: 7px;
 }
 
 @media only screen and (max-width:1024px) {
